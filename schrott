@@ -1,0 +1,54 @@
+
+/* Ganze Navigation*/
+.topnav {
+    position:relative;
+    text-decoration: none;
+	text-align:center;
+    padding: 15px; 
+	max-width:100%;
+    overflow: hidden;
+    background-color: rgb(61, 56, 82);
+    color: white;
+}
+
+.topnav nav ul li {
+    display: block;
+    position: relative;
+    list-style-type: none;
+}
+.topnav nav ul li ul li {
+    display: block;
+    position: relative;
+    list-style-type: none;
+}
+
+
+/* Navigation mit den Überkategorien (Home, Kontakte usw.)*/
+.topnav nav ul li a{  
+    text-decoration: none;
+    display: block;
+	font-weight:bold;
+	background-color: rgb(81, 74, 107);
+	color:white;
+    text-align: center;
+}
+
+
+
+/* Links in der Navigation */
+.topnav nav ul li ul li a {
+    text-decoration: none;
+    color: wheat;
+    text-align: left;
+}
+
+.topnav a:hover {
+    background-color: rgb(121, 111, 155);
+    text-decoration: none;
+    letter-spacing: 4px;
+}
+
+.topnav a:visited {
+    color: wheat;
+    text-decoration: none;
+}

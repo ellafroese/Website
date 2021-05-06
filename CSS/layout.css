@@ -10,48 +10,11 @@
     text-align: center;
 }
 
-
-
-
-/* Ganze Navigation*/
-.topnav {
-    text-decoration: none;
-    padding: 20px; 
-	max-width:100%;
-    overflow: hidden;
-    background-color: rgb(61, 56, 82);
-    color: white;
+.topnav li {
+    display: inline;            /* Listenelemente nebeneinander */
+    list-style-type: none;      /* Aufzählungszeichen entfernen */
 }
 
-
-/* Navigation mit den Überkategorien (Home, Kontakte usw.)*/
-.topnav nav ul li a{
-    text-decoration: none;
-    display: block;
-	font-weight:bold;
-	text-align:center;
-	background-color: rgb(81, 74, 107);
-	color:white;
-}
-
-
-
-/* Links in der Navigation */
-.topnav ul li ul li a {
-    text-decoration: none;
-    color: wheat;
-    text-decoration: none;
-}
-
-.topnav a:hover {
-    background-color: rgb(121, 111, 155);
-    text-decoration: none;
-    letter-spacing: 4px;
-}
-
-.topnav a:visited {
-    color: wheat;
-}
 
 
 .fusszeile{
