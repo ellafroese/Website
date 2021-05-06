@@ -1,3 +1,66 @@
-body {
+/* Allgemein */
+* {
     font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    background-color: rgb(168, 188, 199);
+}
+
+.header h1 {
+    font-size: 26px;
+    text-align: center;
+}
+
+
+
+
+/* Ganze Navigation*/
+.topnav {
+    text-decoration: none;
+    padding: 20px; 
+	max-width:100%;
+    overflow: hidden;
+    background-color: rgb(61, 56, 82);
+    color: white;
+}
+
+
+/* Navigation mit den Überkategorien (Home, Kontakte usw.)*/
+.topnav nav ul li a{
+    text-decoration: none;
+    display: block;
+	font-weight:bold;
+	text-align:center;
+	background-color: rgb(81, 74, 107);
+	color:white;
+}
+
+
+
+/* Links in der Navigation */
+.topnav ul li ul li a {
+    text-decoration: none;
+    color: wheat;
+    text-decoration: none;
+}
+
+.topnav a:hover {
+    background-color: rgb(121, 111, 155);
+    text-decoration: none;
+    letter-spacing: 4px;
+}
+
+.topnav a:visited {
+    color: wheat;
+}
+
+
+.fusszeile{
+    padding:20px;
+    overflow: hidden;
+    background-color: rgb(61, 56, 82);
+    color: white;
+    font-size: 13px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
 }
